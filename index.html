@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Oranium</title>
+            <link rel="stylesheet" type="text/css" href="styles.css">
+        </head>     
+        
+        <body>
+            
+            <div class="information">
+                <p class="contact">Tel:0800 321 ****     E-Mail:oranium@gmall.de</p>
+                  
+                             
+                 </div>
+        
+        <a href="#" class="btn">Homepage</a>
+        <a href="Hotels.html" class="btn">Hotels</a>
+        <a href="Angeboten.html" class="btn">Offers</a>
+        <a href="Tage&Feiern.html" class="btn">Tage und Feiern</a>
+                
+        
+           <div class="color">
+       
+                <div class="container">
+                    <center>
+                    <img class="top-backgroung" src="images/hotel.jpg" id="image of hotel">
+            
+                    <h1 class="title">Oranium Hotel</h1>
+                    
+                       
+                    <p class="motto-hotel">welcome to the destination of your dreams</p>
+          
+                </div>
+            <br><br><br><br><br><br>
+            <h3>select the check-in and check-out dates please</h3>
+            
+                <div class="calendar" id="calendar">
+                    <div class="month">
+                        <div class="prev" onclick="moveDate('prev')">&#10094;</div>
+                        <div class="date">
+                            <h1 id="month"></h1>
+                            <p id="day"></p>
+                        </div>
+                        <div class="next" onclick="moveDate('next')">&#10095;</div>
+                    </div>
+                    <div class="weekdays">
+                      <div>Sun</div>
+                      <div>Mon</div>
+                      <div>Tue</div>
+                      <div>Wed</div>
+                      <div>Thu</div>
+                      <div>Fri</div>
+                      <div>Sat</div>
+                    </div>
+                    <div class="days"></div>
+                </div>
+              <img class="rooms" src="images/rooms.jpg" id="rooms">
+                <div id="selectedDates"></div>         
+                
+                <script src="script.js"></script>
+                
+                <input type="checkbox" id="checkbox1">
+                <input type="checkbox" id="checkbox2">
+                <h3>please select one of the bedroooms available. single or double?</h3>
+                <h2>single bedroom</h2>
+                <input type="checkbox" id="checkbox3">
+                <h2>double bedroom</h2>
+                <input type="checkbox" id="checkbox4">
+                <br>
+                <a href="result.html" class="btlf">click if you are satisfied with your choice</a>
+                
+                </center>
+        </body>
+   
+</html>

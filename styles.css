@@ -1,0 +1,253 @@
+body{
+  background-color: aquamarine;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: 1px solid rgb(30, 57, 91);
+  margin: 50px auto;
+  padding: 20px; /* Added padding to the container for better readability */
+}
+.information {
+  background-position: relative;
+  height: 30px;
+  background-color: rgb(17, 48, 86);
+}
+.contact {
+  font-size: 20px;
+  font-style: italic;
+  color: #fff;  
+}
+.slogan {
+  font-size: 50px;
+  font-style: italic;
+  color: black;
+}
+.last {
+  font-size: 50px;
+  font-style: italic;
+  color: #fff;
+  margin-top: -180px;
+  margin-left: 30px;
+}
+
+.informationf {
+  font-size: 18px;
+  font-style: arial;
+  color: black;
+  margin-left: 870px;
+  margin-top: 20px;
+}
+
+.informationf2 {
+  font-size: 18px;
+  font-style: arial;
+  color: black;
+  margin-left: 870px;
+  margin-top: 20px;
+}
+.ireason {
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(106, 14, 14);
+}
+
+.ifamily {
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(106, 14, 14);
+  margin-left: 1000px;
+  margin-top: -130px;
+}
+.ipet {
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(106, 14, 14);
+}
+.ipetf {
+  font-size: 18px;
+  font-style: arial;
+  color: black;
+}
+.ipetf2 {
+  font-size: 18px;
+  font-style: arial;
+  color: black;
+}
+
+.title {
+  font-size: 50px;
+  font-style: italic;
+  color: rgb(106, 14, 14);
+  width: 1000px;
+  size: 100%; /* Adjust the font size as needed */
+}
+
+.motto-hotel {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: #fff;
+  background-color: black;
+  padding: 10px;
+}
+
+.top-backgroung {
+  bottom: 100px;
+  background-position: relative;
+  width: 500px;
+  margin-right: 150px;
+  margin-top: -20px;
+  height: 310px;
+}
+
+.color {
+  background-position: relative;
+  height: 310px;
+  background-color: rgb(17, 48, 86);
+}
+
+.btn {
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(106, 14, 14);
+  width: 1000px;
+  size: 100%;
+  margin-left: 30px;
+}
+.btlf {
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(106, 14, 14);
+  width: 1000px;
+  size: 100%;
+  margin-left: 30px;
+}
+
+.container {
+  margin-top: 50px;
+  width: 300px;
+  margin: 50px auto;
+}
+
+.calendar {
+  width: 300px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block; /* Display both calendars in line */
+  vertical-align: top; /* Align calendars at the top */
+}
+  
+  .month {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+  }
+  
+  .weekdays {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .weekdays div {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .days div {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+  .current {
+    background-color: #fff;
+  }
+
+ .selectedDates {
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(106, 14, 14);
+  width: 1000px;
+  size: 100%;
+  margin-left: 30px;
+ }
+ input[type="checkbox"] {
+  width: 20px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  /* Other styling properties */
+}
+
+
+.hotel2 {
+  bottom: 100px;
+  background-position: relative;
+  width: 1000px;
+  margin-right: 150px;
+}
+
+.dubai {
+  width: 700px;
+  height: 530px;
+}
+.winter {
+  height: 475px;
+  width: 640px;
+}
+.forest {
+  height: 530px;
+  width: 640px;
+}
+.summer {
+  width: 700px;
+  height: 475px;
+}
+.reason {
+  width: 500px;
+  margin-left: 10px;
+}
+.family {
+  width: 500px;
+  margin-left: 350px;
+}
+.pet {
+  width: 500px;
+}
+
+.h1{
+font-size: 50px;
+font-style: italic;
+color: rgb(106, 14, 14);
+width: 1000px;
+size: 100%; /* Adjust the font size as needed */
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Define two columns, one for image and one for text */
+  gap: 10px; /* Optional gap between image and text */
+}
+
+.rooms {
+  max-width: 1000px; /* Adjust width as needed */
+  height: auto;
+  border-left: 300px;
+}
